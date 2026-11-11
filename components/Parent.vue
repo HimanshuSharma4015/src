@@ -16,12 +16,6 @@ const newName="This is the first element"
 
 
 
-
-
-
-
-
-
 function receiveMessage(data) {
   message.value = data
 }

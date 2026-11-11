@@ -86,6 +86,29 @@ function showMessage() {
 
     <RouterLink to="/VueDirective">Vue Directive</RouterLink>
 
+            <br /><br />
+
+    <RouterLink to="/Vuevif">Vue If</RouterLink>
+
+
+                <br /><br />
+
+    <RouterLink to="/Vshow">Vue Show</RouterLink>
+
+
+
+               <br /><br />
+
+    <RouterLink to="/VueEvents">Vue Events</RouterLink>
+
+                <br /><br />  
+
+      <RouterLink to="/Von">Vue On </RouterLink>
+
+                   <br /><br />  
+
+      <RouterLink to="/Vuemethods">Vue Methods</RouterLink>
+
 
 
   <hr />

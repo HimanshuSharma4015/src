@@ -13,13 +13,10 @@ const restaurant =ref('Thousand Spices')
 
 
 function changeName(){
+    
 restaurant.value="Red Mango"
 
-
 }
-
-
-
 
 </script>
 

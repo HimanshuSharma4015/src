@@ -39,6 +39,8 @@ const filteredProducts = computed(() => {
   </p>
 
   <p v-if="filteredProducts.length==1">
-    Only 1 Product Found!
+    Only 1 Product Found! 
   </p>
+
+
 </template>

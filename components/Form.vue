@@ -31,7 +31,10 @@ function registerStudent() {
 
   </form>
 
+
   <p>Name: {{ name }}</p>
   <p>Email: {{ email }}</p>
   <p>Age: {{ age }}</p>
+
+
 </template>

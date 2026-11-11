@@ -14,6 +14,14 @@ import HTTPRequest from '../components/HTTPRequest.vue'
 import FoodItems from  '../components/FoodItems.vue'
 import VueIntro from '../components/VueIntro.vue'
  import VueDirective from '../components/VueDirective.vue'
+import VBind from '../components/VBind.vue'
+import Vuevif from '../components/Vuevif.vue'
+import Vshow from '../components/Vshow.vue'
+import Vuefor from '../components/Vuefor.vue'
+import VueEvents from '../components/VueEvents.vue'
+import Von from '../components/Von.vue'
+ import Vuemethods from '../components/Vuemethods.vue'
+ 
 
 
 
@@ -85,7 +93,37 @@ const routes = [
   {
     path:'/VueDirective',
     component:VueDirective
-  }
+  },{
+
+path:'/VueBind',
+component:VBind
+
+
+  },
+  {
+    path:'/Vuevif',
+    component:Vuevif
+  },
+  {
+    path:'/Vshow',
+    component:Vshow
+  },{
+    path:'/Vuefor',
+     component:Vuefor 
+  },
+  {
+    path:'/VueEvents',
+    component:VueEvents
+  },
+  {
+    path:'/Von',
+    component:Von 
+  },
+{
+path:'/Vuemethods',
+component:Vuemethods
+
+}
 ]
 
 const router = createRouter({

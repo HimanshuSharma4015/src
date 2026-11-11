@@ -38,6 +38,7 @@ async function loadFood() {
   error.value = '';
 
   try {
+    
     const response = await fetch(
       'https://jsonplaceholder.typicode.com/users'
     );
